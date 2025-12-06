@@ -1,4 +1,4 @@
-package CompositeDesignPattern.VendingMachine;
+package VendingMachine;
 
 public class ItemSelf {
 

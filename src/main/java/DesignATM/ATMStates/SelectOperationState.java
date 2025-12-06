@@ -1,8 +1,8 @@
 package DesignATM.ATMStates;
 
-import net.engineeringdigest.journalApp.CompositeDesignPattern.DesignATM.ATM;
-import net.engineeringdigest.journalApp.CompositeDesignPattern.DesignATM.Card;
-import net.engineeringdigest.journalApp.CompositeDesignPattern.DesignATM.TransactionType;
+import DesignATM.ATM;
+import DesignATM.Card;
+import DesignATM.TransactionType;
 
 public class SelectOperationState extends ATMState{
 

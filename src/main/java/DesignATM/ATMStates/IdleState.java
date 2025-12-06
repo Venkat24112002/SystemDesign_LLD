@@ -1,7 +1,7 @@
 package DesignATM.ATMStates;
 
-import net.engineeringdigest.journalApp.CompositeDesignPattern.DesignATM.ATM;
-import net.engineeringdigest.journalApp.CompositeDesignPattern.DesignATM.Card;
+import DesignATM.ATM;
+import DesignATM.Card;
 
 public class IdleState extends ATMState{
 

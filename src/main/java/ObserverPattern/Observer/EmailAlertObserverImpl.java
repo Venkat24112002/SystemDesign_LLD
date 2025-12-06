@@ -1,6 +1,6 @@
 package ObserverPattern.Observer;
 
-import net.engineeringdigest.journalApp.ObserverPattern.Observable.StocksObservable;
+import ObserverPattern.Observable.StocksObservable;
 
 public class EmailAlertObserverImpl implements NotificationAlertObserver{
 

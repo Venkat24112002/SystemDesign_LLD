@@ -1,6 +1,5 @@
-package CompositeDesignPattern.VendingMachine;
+package VendingMachine;
 
-import org.springframework.security.core.parameters.P;
 
 public class Inventory {
     ItemSelf[] inventory = null;

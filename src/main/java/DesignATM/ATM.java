@@ -1,7 +1,8 @@
 package DesignATM;
 
-import net.engineeringdigest.journalApp.CompositeDesignPattern.DesignATM.ATMStates.ATMState;
-import net.engineeringdigest.journalApp.CompositeDesignPattern.DesignATM.ATMStates.IdleState;
+
+import DesignATM.ATMStates.ATMState;
+import DesignATM.ATMStates.IdleState;
 
 public class ATM {
 

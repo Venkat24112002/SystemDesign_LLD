@@ -1,6 +1,7 @@
-package CompositeDesignPattern.VendingMachine;
+package VendingMachine;
 
-import net.engineeringdigest.journalApp.CompositeDesignPattern.VendingMachine.VendingStates.State;
+
+import VendingMachine.VendingStates.State;
 
 public class Main {
 

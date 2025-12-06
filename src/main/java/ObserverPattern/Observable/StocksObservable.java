@@ -1,6 +1,6 @@
 package ObserverPattern.Observable;
 
-import net.engineeringdigest.journalApp.ObserverPattern.Observer.NotificationAlertObserver;
+import ObserverPattern.Observer.NotificationAlertObserver;
 
 public interface StocksObservable {
     public void add(NotificationAlertObserver observer);

@@ -1,11 +1,11 @@
 package TitacToe.Models;
 
 
-import org.antlr.v4.runtime.misc.Pair;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.commons.lang3.tuple.Pair;
 
 
 public class Board {
@@ -40,7 +40,7 @@ public class Board {
         for(int i=0;i<size;i++){
             for(int j=0;j<size;j++){
                 if(board[i][j] == null) {
-                    Pair<Integer, Integer> p = new Pair<>(i, j);
+                    Pair<Integer, Integer> p = Pair.of(i, j);
                     freeCells.add(p);
                 }
             }

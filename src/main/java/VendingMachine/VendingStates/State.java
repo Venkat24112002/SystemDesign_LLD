@@ -1,8 +1,9 @@
-package CompositeDesignPattern.VendingMachine.VendingStates;
+package VendingMachine.VendingStates;
 
-import net.engineeringdigest.journalApp.CompositeDesignPattern.VendingMachine.Coin;
-import net.engineeringdigest.journalApp.CompositeDesignPattern.VendingMachine.Item;
-import net.engineeringdigest.journalApp.CompositeDesignPattern.VendingMachine.VendingMachine;
+
+import VendingMachine.Coin;
+import VendingMachine.Item;
+import VendingMachine.VendingMachine;
 
 import java.util.List;
 

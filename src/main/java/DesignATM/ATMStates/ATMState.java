@@ -1,8 +1,8 @@
 package DesignATM.ATMStates;
 
-import net.engineeringdigest.journalApp.CompositeDesignPattern.DesignATM.ATM;
-import net.engineeringdigest.journalApp.CompositeDesignPattern.DesignATM.Card;
-import net.engineeringdigest.journalApp.CompositeDesignPattern.DesignATM.TransactionType;
+import DesignATM.ATM;
+import DesignATM.Card;
+import DesignATM.TransactionType;
 
 public abstract class ATMState {
 
@@ -29,6 +29,9 @@ public abstract class ATMState {
     public void returnCard() {
         System.out.println("OOPS!! Something went wrong");
     }
+
+    public void displayBalance(ATM atm, Card card){
+        System.out.println("OOPS!! Something went wrong");}
 
     public void exit(ATM atm) {
         System.out.println("OOPS!! Something went wrong");

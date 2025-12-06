@@ -1,9 +1,9 @@
 package SnakeAndLadder;
 
-import net.engineeringdigest.journalApp.CompositeDesignPattern.SnakeAndLadder.Model.Board;
-import net.engineeringdigest.journalApp.CompositeDesignPattern.SnakeAndLadder.Model.Cell;
-import net.engineeringdigest.journalApp.CompositeDesignPattern.SnakeAndLadder.Model.Dice;
-import net.engineeringdigest.journalApp.CompositeDesignPattern.SnakeAndLadder.Model.Player;
+import SnakeAndLadder.Model.Board;
+import SnakeAndLadder.Model.Cell;
+import SnakeAndLadder.Model.Dice;
+import SnakeAndLadder.Model.Player;
 
 import java.util.Deque;
 import java.util.LinkedList;

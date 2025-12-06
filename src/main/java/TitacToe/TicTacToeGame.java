@@ -1,7 +1,7 @@
 package TitacToe;
 
-import net.engineeringdigest.journalApp.CompositeDesignPattern.TitacToe.Models.*;
-import org.antlr.v4.runtime.misc.Pair;
+import TitacToe.Models.*;
+import org.apache.commons.lang3.tuple.Pair;
 
 import java.util.Deque;
 import java.util.LinkedList;

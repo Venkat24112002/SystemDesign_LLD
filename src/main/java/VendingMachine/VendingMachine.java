@@ -1,7 +1,8 @@
-package CompositeDesignPattern.VendingMachine;
+package VendingMachine;
 
-import net.engineeringdigest.journalApp.CompositeDesignPattern.VendingMachine.VendingStates.IdleState;
-import net.engineeringdigest.journalApp.CompositeDesignPattern.VendingMachine.VendingStates.State;
+
+import VendingMachine.VendingStates.IdleState;
+import VendingMachine.VendingStates.State;
 
 import java.util.ArrayList;
 import java.util.List;
